@@ -22,6 +22,7 @@ export default function Pagina() {
           w-full bg-gray-800
           text-white p-6
           flex justify-between items-center
+          fixed top-0
         `}>
         <div className="logo">
           <h1 className="font-black text-2xl">Web <span className="text-green-500">Store</span></h1>
