@@ -32,7 +32,7 @@ export default function Pagina() {
         </div>
       </header>
       <div className="produtos">
-        <ListaProdutos produto={produtos} addCarrinho={addProduto} gridCols={1} sm={2} md={3} lg={4} xl={5} xl2={6} />
+        <ListaProdutos produto={produtos} addCarrinho={addProduto} gridCols={2} sm={3} md={4} lg={5} xl={5} xl2={6} />
       </div>
     </div>
   )
